@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>WEB1 - Welcome</title>
+    <meta charset="utf-8"> 
+
+<style>
+    a{
+        color:black;
+        text-decoration:none;
+    }
+
+    #active {
+        color:rgb(185, 136, 136);
+    }
+    
+    .saw {
+        color:rgb(10, 10, 10);
+    }
+
+/* tag선택자 = a
+    class선택자 = .saw
+    id 선택자 - #active
+    
+    tag < class < id 
+    맨 마지막 입력(가장최신)이 적용되는데, 
+    tag, class, id 가 있으면 
+    순서상관없이 id가 우선으로 적용됨 */
+
+    h1{
+        font-size:300%;
+        text-align:center;
+    /* webkit-text-size-adjust:100% 라는 것도 있네.. */
+    }
+</style>
+</head>
+
+<body>
+     <h1><a href="index.html"> WEB </a></h1>
+
+    <ul>
+        <li><a href="1.html" class="saw"> 1. HTML</a></li>
+        <li><a href="2.html" class="saw" id="active"> 2. CSS</a></li>
+        <li><a href="3.html" > 3. JaVaScript</a></li>
+        
+        <Br>
+        <br>
+        <h2>WEB</h2>
+
+
+
+
+</body>
+</html>
